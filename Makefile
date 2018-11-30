@@ -11,8 +11,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-REPOSITORY := quay.io/prometheus
-NAME       := busybox
+REPOSITORY := jianghang8421
+NAME       := prom-busybox
 BRANCH     := $(shell git rev-parse --abbrev-ref HEAD)
 SUFFIX     ?= -$(subst /,-,$(BRANCH))
 VERSIONS   ?= uclibc glibc
